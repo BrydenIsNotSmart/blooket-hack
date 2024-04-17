@@ -84,7 +84,7 @@ details summary ~ * {
     header.style.paddingTop = '2px';
     header.style.fontSize = '1.5rem';
     header.style.textAlign = 'center'
-    header.innerHTML = `Not Blooket Cheats <span style="font-size: 0.75rem">v1.0</span>`;
+    header.innerHTML = `Blooket Mods <span style="font-size: 0.75rem">v1.0</span>`;
 
     let loop;
 
@@ -104,6 +104,7 @@ details summary ~ * {
     close.style.fontWeight = 'bolder';
     close.style.paddingTop = '10px';
     close.style.paddingRight = '15px';
+    close.style.color = 'white';
     close.innerText = 'X';
     close.onclick = () => {
         GUI.remove();
@@ -127,6 +128,7 @@ details summary ~ * {
     minimize.style.fontWeight = 'bolder';
     minimize.style.paddingTop = '10px';
     minimize.style.paddingLeft = '15px';
+    minimize.style.color = 'white';
     minimize.innerText = '-';
     minimize.onclick = () => {
         bodyDiv.hidden = !bodyDiv.hidden;
@@ -151,7 +153,7 @@ details summary ~ * {
     bodyDiv.appendChild(footer);
     footer.style.fontSize = '0.9rem';
     footer.style.paddingBottom = '5px';
-    footer.innerHTML = (`<span>Cheats by Bryden</span>`);
+    footer.innerHTML = (`<span>Created by Bryden</span>`);
 
     var getValues = () => new Promise((e, t) => {
         try {
